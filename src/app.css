@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap');
+@tailwind base;
+
+@layer base {
+    body {
+        @apply font-sans h-screen text-base-content bg-base-100;
+    }
+    b, strong {
+        @apply font-bold;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
